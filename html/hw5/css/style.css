@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    /* width: 1200px; */
+    margin: auto;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    align-content: center;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+.Logo::first-letter{
+    color: #1abc91;
+}
+.menu>li:hover{
+    color: #1abc91;
+    cursor: pointer;
+}
+.tours{
+    background-image:linear-gradient(to right,#0d0d0ec6,#1d39697c),
+    url(../img/slide4@1X.png);
+    height: 607px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 104px;
+    height: 104px;
+    background-color: #1abc9c;
+    border: none;
+    font-size: 64px;
+    color: #ffffff;
+}
+.text{
+    margin: 60px;
+}
+.text>p{
+    font-size: 30px;
+    font-weight: 100;
+}
+.title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.collection::after{
+    content: "";
+    display:block;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    margin: auto;
+    margin-top:  30px;
+}
+.collection{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.people{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.people>div{
+    width: 23%;
+    margin: 10px;
+}
+.cnopka{
+    display: flex;
+}
+.name{
+    width: 85%;
+    background-color: #332233;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 40px;
+    align-items: center;
+    text-transform: uppercase;
+}
+.price{
+    width: 15%;
+    background-color: #8c8c8c;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 40px;
+    text-align: center;
+}
+.subMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px gray;
+}
+.subMenu>li:last-child{
+    display: block;
+    width: 166px;
+    height: 50px;
+
+}
+.people>div:hover>.subMenu{
+    display: flex;
+}
+.subMenu>li last-child{
+    display: block;
+    width: 150px;
+    height: 50px;
+}
+.pic>img{
+    width: 100%;
+}
